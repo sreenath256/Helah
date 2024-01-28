@@ -34,8 +34,17 @@ const SecondBanner = () => {
               <h3 className="text-5xl  text-white leading-tight mb-6">Get a 20% Discount on your first order!</h3>
               <div className="flex items-center mb-6 bg-white rounded-full">
                 <Input className="border-0 px-4 py-2 w-full rounded-full focus:border-0 " placeholder="Enter your email" type="email" />
-                <Button className="bg-white text-[#CC4254] rounded-full " variant="default">
-                <i className="fa-light fa-envelope" style={{color: "#000000"}}></i>
+                <Button className="bg-white text-[#777777] hover:bg-white rounded-full " variant="default">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-envelope"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                </svg>
                 </Button>
               </div>
               <p className="text-white  text-sm">

@@ -34,13 +34,13 @@ const About = () => {
           
           <div className="bg-[#FFEFF1] rounded-2xl p-32 mt-20">
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8">
-        <div className="w-full flex items-end flex-col justify-center text-right pr-8">
-          <h2 className="text-5xl  text-[#CC4254] mb-6">Brand Story</h2>
+        <div className="w-full flex items-end flex-col justify-center text-right md:pr-8">
+          <h2 className="text-5xl text-center  text-[#CC4254] mb-6">Brand Story</h2>
           <p className="text-lg font-Inter font-light text-black">
             Helah, a sanctuary of style founded in 1999 by Ubaid. For over two decades, we've been devoted to delivering
             affordable elegance to adorn your unique journey. From our origins as a wholesale hub to the heart of South
             India's jewelry scene, Helah has flourished into a name synonymous with craftsmanship and sophistication.
-          </p>
+          </p> 
           <Button className="mt-6 bg-[#CC4254] w-[230px] h-[52px] font-Inter text-lg hover:bg-[#973b47] p-6 text-white ">Explore our collections</Button>
         </div>
         <div className="w-full ">
