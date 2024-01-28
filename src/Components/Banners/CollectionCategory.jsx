@@ -55,7 +55,7 @@ const CollectionCategory = () => {
                 aspectRatio: "150/150",
                 objectFit: "contain",
               }}
-              width="150"
+              width="80%"
             />
             <div>
 
@@ -66,6 +66,7 @@ const CollectionCategory = () => {
             </div>
           </CardContent>
         </Card>
+        
         <Card className="rounded-lg w-[170px] md:w-[233px] border border-[#e3a0a8] relative overflow-hidden  h-full  bg-cover  bg-no-repeat bg-top ">
           <CardContent className=" flex flex-col justify-around h-full items-center " >
             <img
@@ -99,7 +100,7 @@ const CollectionCategory = () => {
                 aspectRatio: "150/150",
                 objectFit: "contain",
               }}
-              width="150"
+              width="80%"
             />
             <div>
 

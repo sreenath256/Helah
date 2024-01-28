@@ -9,7 +9,7 @@ const AmericanDiamond = () => {
           American Diamond
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8  mb-4">
-          <div className="flex flex-col w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg h-[380px]">
+          <div className="flex flex-col max-w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg md:h-[380px]">
             <div className="w-full h-[90%] flex justify-center items-center bg-white m-0 border-b rounded-lg border-b-[#CC4254]">
               <img
                 alt="Necklace"
@@ -25,7 +25,7 @@ const AmericanDiamond = () => {
             </div>
             <span>Necklace</span>
           </div>
-          <div className="flex flex-col w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg h-[380px]">
+          <div className="flex flex-col max-w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg md:h-[380px]">
             <div className="w-full h-[90%] flex justify-center items-center bg-white m-0 border-b rounded-lg border-b-[#CC4254]">
               <img
                 alt="Necklace"
@@ -41,7 +41,7 @@ const AmericanDiamond = () => {
             </div>
             <span>Necklace</span>
           </div>
-          <div className="flex flex-col w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg h-[380px]">
+          <div className="flex flex-col max-w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg md:h-[380px]">
             <div className="w-full h-[90%] flex justify-center items-center bg-white m-0 border-b rounded-lg border-b-[#CC4254]">
               <img
                 alt="Ring1"
@@ -57,13 +57,13 @@ const AmericanDiamond = () => {
             </div>
             <span>Necklace</span>
           </div>
-          <div className="flex flex-col w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg h-[380px]">
+          <div className="flex flex-col max-w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg md:h-[380px]">
             <div className="w-full h-[90%] flex justify-center items-center bg-white m-0 border-b rounded-lg border-b-[#CC4254]">
               <img
                 alt="Necklace"
                 className="mb-2"
                 height="150"
-                src={"shttps://raw.githubusercontent.com/sreenath256/Helah/master/src/assets/bracelets1.png"}
+                src={"https://raw.githubusercontent.com/sreenath256/Helah/master/src/assets/bracelets1.png"}
                 style={{
                   aspectRatio: "150/150",
                   objectFit: "cover",
@@ -74,7 +74,7 @@ const AmericanDiamond = () => {
             <span>Necklace</span>
           </div>
    
-        <div className="flex flex-col w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg h-[380px]">
+        <div className="flex flex-col max-w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg md:h-[380px]">
           <div className="w-full h-[90%] flex justify-center items-center bg-white m-0 border-b rounded-lg border-b-[#CC4254]">
             <img
               alt="Necklace"
@@ -90,7 +90,7 @@ const AmericanDiamond = () => {
           </div>
           <span>Necklace</span>
         </div>
-        <div className="flex flex-col w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg h-[380px]">
+        <div className="flex flex-col max-w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg md:h-[380px]">
           <div className="w-full h-[90%] flex justify-center items-center bg-white m-0 border-b rounded-lg border-b-[#CC4254]">
             <img
               alt="AndletsGold"
@@ -106,7 +106,7 @@ const AmericanDiamond = () => {
           </div>
           <span>Necklace</span>
         </div>
-        <div className="flex flex-col w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg h-[380px]">
+        <div className="flex flex-col max-w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg md:h-[380px]">
           <div className="w-full h-[90%] flex justify-center items-center bg-white m-0 border-b rounded-lg border-b-[#CC4254]">
             <img
               alt="Necklaceset"
