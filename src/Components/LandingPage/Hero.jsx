@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 const Hero = () => {
     return (
         <div className="min-h-screen grid grid-cols-1 md:grid-cols-2 bg-[#FFECEF]" >
-          <div className="flex flex-col   justify-center items-center p-8 bg-[#FFECEF]  text-[#CC4254]">
+          <div className="flex flex-col   justify-center md:items-center p-8 bg-[#FFECEF]  text-[#CC4254]">
             <div className='w-1/2 '>
 
             <h1 className="text-4xl">Adorn 
