@@ -4,18 +4,21 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="bg-white px-2 sm:px-4 py-2.5 h-[120px] rounded dark:bg-gray-800">
-      <div className="container flex flex-wrap justify-between  h-full items-center mx-auto">
+      <div className="container flex flex-nowrap justify-between  h-full items-center mx-auto">
         <div className="flex lg:w-[250px] w-[150px] h-full items-center justify-center bg-[url('https://raw.githubusercontent.com/sreenath256/Helah/master/src/assets/CompanyLogo.png')] bg-contain bg-no-repeat bg-center ">
 
       
           {/* <img alt="Logo" width={'100%'} height={'100%'} className="object-cover  sm:h-9" src={'https://raw.githubusercontent.com/sreenath256/Helah/master/src/assets/CompanyLogo.png'} /> */}
           
         </div>
-        <div className="flex md:order-2">
+        <div className=" flex md:order-2 ">
+          <div className="hidden md:flex ">
+
           <SearchIcon className="text-gray-700" />
           <HeartIcon className="text-gray-700 ml-4" />
           <UserIcon className="text-gray-700 ml-4" />
           <ShoppingBagIcon className="text-gray-700 ml-4" />
+          </div>
           <button
             aria-controls="mobile-menu-2"
             aria-expanded="false"
