@@ -28,38 +28,35 @@ const About = () => {
                 gems. Join us on this journey of adornment, where each piece at helah is more than an accessory – it's a
                 reflection of your unique style.
               </p>
-              <Button className="bg-[#CC4254] font-Inter text-lg hover:bg-[#973b47] p-6 text-white">Explore our collections</Button>
+              <Button className="bg-[#CC4254] w-[230px] h-[52px]  font-Inter text-lg hover:bg-[#973b47] p-6 text-white">Explore our collections</Button>
             </div>
           </div>
           
-    <div className="bg-[#fde2e4] mt-20 p-10">
-      <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <div className="flex-1 pr-8">
-          <h2 className="text-5xl font-bold text-[#9d174d] mb-6">Brand Story</h2>
-          <p className="text-lg text-[#6d6875]">
+          <div className="bg-[#FFEFF1] rounded-2xl p-32 mt-20">
+      <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8">
+        <div className="w-full flex items-end flex-col justify-center text-right pr-8">
+          <h2 className="text-5xl  text-[#CC4254] mb-6">Brand Story</h2>
+          <p className="text-lg font-Inter font-light text-black">
             Helah, a sanctuary of style founded in 1999 by Ubaid. For over two decades, we've been devoted to delivering
             affordable elegance to adorn your unique journey. From our origins as a wholesale hub to the heart of South
             India's jewelry scene, Helah has flourished into a name synonymous with craftsmanship and sophistication.
           </p>
-          <Button className="mt-6 bg-[#e5989b] text-white">Explore our collections</Button>
+          <Button className="mt-6 bg-[#CC4254] w-[230px] h-[52px] font-Inter text-lg hover:bg-[#973b47] p-6 text-white ">Explore our collections</Button>
         </div>
-        <div className="flex-1">
+        <div className="w-full ">
           <div className="relative">
             <img
               alt="Jewelry"
-              className="w-full h-auto"
+              className="w-3/4 max-w-[350px] h-auto "
               height="300"
-              src="/placeholder.svg"
+              src="https://raw.githubusercontent.com/sreenath256/Helah/master/src/assets/AboutPageImage2.png"
               style={{
                 aspectRatio: "300/300",
-                objectFit: "cover",
+                objectFit: "contain",
               }}
-              width="300"
+              width="200"
             />
-            <div className="absolute bottom-0 right-0 bg-white p-4">
-              <p className="text-2xl font-semibold text-[#9d174d]">since</p>
-              <p className="text-5xl font-bold text-[#9d174d]">1999</p>
-            </div>
+            
           </div>
         </div>
       </div>
