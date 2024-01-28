@@ -15,8 +15,8 @@ const Contact = () => {
                 <Input className="border-[0.8px] font-Inter border-[#C84253] rounded-md p-2" placeholder="Email*" required type="email" />
               </div>
               <Input className="border-[0.8px] font-Inter border-[#C84253] rounded-md p-2" placeholder="Phone" />
-              <Textarea className="border-[0.8px] font-Inter border-[#C84253] rounded-md p-2 h-32" placeholder="Comment" />
-              <Button className="bg-[#C84253] text-lg hover:bg-[#a93746] text-white font-Inter w-[158px] rounded-sm py-2">Send</Button>
+              <Textarea className="border-[0.8px]  font-Inter focus:ring-transparent border-[#C84253] rounded-md p-2 h-32" placeholder="Comment" />
+              <Button className="bg-[#CC4254] text-lg hover:bg-[#c24051] text-white font-Inter w-[158px] rounded-sm py-2">Send</Button>
             </div>
           </form>
         </div>
