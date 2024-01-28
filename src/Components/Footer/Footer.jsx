@@ -87,7 +87,7 @@ const Footer = () => {
                 <p className="mb-4 text-[#777777] font-Inter">Get up to 20% discount on your first order!</p>
                 <form className="flex">
                   <input
-                    className="px-4 py-2 focus:outline-none rounded-full "
+                    className="px-4 py-2 font-Inter text-[#777777] focus:outline-none rounded-full "
                     placeholder="Enter your email"
                     type="email"
                   />
