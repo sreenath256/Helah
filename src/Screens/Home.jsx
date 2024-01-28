@@ -10,7 +10,6 @@ import Footer from '@/Components/Footer/Footer'
 const Home = () => {
   return (
     <div>
-      <Navbar/>
       <Hero/>
       <div className='mt-8'>
 
@@ -26,9 +25,7 @@ const Home = () => {
       <div className='my-16'>
         <AmericanDiamond/>
       </div>
-      <div className='mt-16 px-5'>
-        <Footer/>
-      </div>
+      
     </div>
 
 )

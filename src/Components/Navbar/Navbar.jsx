@@ -41,7 +41,9 @@ const Navbar = () => {
                 className="block py-2  pr-4 pl-3 text-xl text-[#2C2C2C] rounded md:bg-transparent md:p-0 dark:text-white"
                 href="#"
               >
+                <Link to='/'>
                 Home
+                </Link>
               </a>
             </li>
             <li>
@@ -49,7 +51,10 @@ const Navbar = () => {
                 className="block py-2 pr-4 pl-3  text-xl text-[#2C2C2C] rounded md:bg-transparent md:p-0 dark:text-white"
                 href="#"
               >
+                <Link to='/collection'>
+
                 Collections
+                </Link>
               </a>
             </li>
             <li>
@@ -57,7 +62,10 @@ const Navbar = () => {
                 className="block py-2 pr-4 pl-3  text-xl text-[#2C2C2C] rounded md:bg-transparent md:p-0 dark:text-white"
                 href="#"
               >
+                <Link to='about'>
+
                 About Us
+                </Link>
               </a>
             </li>
             <li>
@@ -65,7 +73,10 @@ const Navbar = () => {
                 className="block py-2 pr-4 pl-3 text-xl text-[#2C2C2C] rounded md:bg-transparent md:p-0 dark:text-white"
                 href="#"
               >
+                <Link to='/contact'>
+
                 Contact Us
+                </Link>
               </a>
             </li>
           </ul>
