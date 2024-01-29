@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { CardContent, Card } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 const CollectionCategory = () => {
   return (
@@ -16,7 +17,10 @@ const CollectionCategory = () => {
           aria-label="Next"
           className=" bg-[#ecb8bf] p-3 m-7  rounded-full shadow-lg  flex items-center justify-center"
           >
+            <Link to='/collection'>
+
           <ArrowRightIcon className="text-[#C84253]  " />
+            </Link>
         </button>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4  gap-12 ">

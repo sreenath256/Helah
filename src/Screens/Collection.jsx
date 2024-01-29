@@ -6,7 +6,7 @@ const Collection = () => {
     return(
 
     
-    <div className="flex flex-col md:flex-row h-screen mt-10">
+    <div className="flex flex-col md:flex-row min-h-screen mt-10">
 
       <aside className="w-full hidden md:block md:w-60 bg-white ml-6 p-2 overflow-y-auto py-6">
         <h2 className="text-lg font-Inter">Collection</h2>
