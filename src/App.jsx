@@ -7,20 +7,24 @@ import Contact from './Screens/Contact'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import Demo from './Screens/Demo'
+import Frame1 from './Screens/Frame1'
+import Collections from './Screens/Collections/Collections'
 
 
 function App() {
 
   return (
     <>
-    <div className='font-messiri'>
+    <div className='font-messiri '>
     <Navbar/>
     <Routes>
       <Route exact path='/' element={<Home/>} />
       <Route path='/about' element={<About/>}/>
       <Route path='/collection' element={<Collection/>}/>
+      <Route path='/collections' element={<Collections/>}/>
 
       <Route path='/contact' element={<Contact/>}/>
+      <Route path='/frame1' element={<Frame1/>}/>
 
 
   
