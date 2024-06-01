@@ -9,6 +9,7 @@ const Navbar = () => {
       <div className="bg-white px-2 sm:px-4 py-2.5 h-[120px] w-full border-[0.5px] border-[#C0C0C0] rounded dark:bg-gray-800">
         <div className="container flex flex-nowrap justify-between w-full h-full items-center ">
           <div className="flex w-1/2  h-full items-center justify-start  bg-contain bg-no-repeat bg-center ">
+            <Link to='/'>
             <img
               alt="Logo"
               width={"100%"}
@@ -17,7 +18,8 @@ const Navbar = () => {
               src={
                 "https://raw.githubusercontent.com/sreenath256/Helah/master/src/assets/CompanyLogo.png"
               }
-            />
+              />
+              </Link>
           </div>
           <div className=" flex md:order-2 w-1/2 ">
             <div className="hidden  md:flex w-full md:justify-end  items-center ">
@@ -73,7 +75,7 @@ const Navbar = () => {
                 className="block py-2 pr-4 pl-3  text-xl text-[#2C2C2C] rounded md:bg-transparent md:p-0 dark:text-white"
                 href="#"
               >
-                <Link to="/collection">All Jewellery</Link>
+                <Link to="/frame1">All Jewellery</Link>
               </a>
             </li>
             <li>
@@ -97,7 +99,7 @@ const Navbar = () => {
                 className="block py-2 pr-4 pl-3 text-xl text-[#2C2C2C] rounded md:bg-transparent md:p-0 dark:text-white"
                 href="#"
               >
-                <Link to="/contact">Sale</Link>
+                <Link to="/">Sale</Link>
               </a>
             </li>
           </ul>

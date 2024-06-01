@@ -29,7 +29,7 @@ const Collections = () => {
       >
         PENDENTS
       </div>
-      <div className="w-full py-10 px-10 lg:px-20 flex flex-col  justify-center">
+      <div className="w-full py-10 px-2 md:px-10 lg:px-20 flex flex-col  justify-center">
         <div className="w-full flex  justify-between">
           <h1 className="flex justify-center items-center font-Inter ">
             <span>
@@ -37,11 +37,11 @@ const Collections = () => {
             </span>
             <span className="hover:text-[#CC4254] ml-2">Necklace</span>
           </h1>
-          <div className="w-[406px] h-[74px] font-[300] border-[1px] flex items-center  border-[#9F9F9F] rounded-[10px]">
-            <div className="w-1/3 text-center text-[20px] font-Inter border-r-[1px] border-[#9F9F9F]">
+          <div className="lg:w-[406px] w-[300px] h-[50px] lg:h-[74px] font-[300] border-[1px] flex items-center  border-[#9F9F9F] rounded-[10px]">
+            <div className="w-2/5 text-center text-[20px] font-Inter border-r-[1px] border-[#9F9F9F]">
               Sort by:
             </div>
-            <div className="w-full px-4">
+            <div className="w-3/5 px-4">
               <select
                 name=""
                 id=""

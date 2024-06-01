@@ -2,7 +2,7 @@ import React from "react";
 import { IoMdStar } from "react-icons/io";
 const ProductCard2 = ({ star }) => {
   return (
-    <div className="m-4 max-w-[264px] h-[403px] flex flex-col">
+    <div className="m-4 max-w-[264px] min-h-[403px] flex flex-col">
       <div className="w-full ">
         <img
           className="h-[330px] w-full object-cover rounded-md"
@@ -22,12 +22,12 @@ const ProductCard2 = ({ star }) => {
           <IoMdStar className="h-5 w-5" />
         </div>
       )}
-      <div className="mt-2 flex items-center">
+      <div className="mt-2 flex items-center justify-between">
         <h1 className="font-Inter text-[22px] text-[#2C2C2C]">₹1,999</h1>
-        <h1 className="font-Inter text-[14px] line-through text-[#2C2C2C] ml-4">
+        <h1 className="font-Inter text-[14px] line-through text-[#2C2C2C] ml-1 md:ml-4">
           ₹2,499
         </h1>
-        <div className="ml-4 bg-[#C84253] w-[52px] h-[18px] rounded-[2px] text-white text-[10px] flex justify-center items-center">
+        <div className="ml-2 md:ml-4 bg-[#C84253] w-[52px] h-[18px] rounded-[2px] text-white text-[10px] flex justify-center items-center">
           50% OFF
         </div>
       </div>

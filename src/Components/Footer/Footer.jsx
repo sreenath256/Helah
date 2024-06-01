@@ -42,7 +42,7 @@ const Footer = () => {
                   className="text-[#777777] font-Inter hover:text-gray-800"
                   href="#"
                 >
-                  <Link to="/collection">Collections</Link>
+                  <Link to="/collections">Collections</Link>
                 </a>
               </li>
               <li>
