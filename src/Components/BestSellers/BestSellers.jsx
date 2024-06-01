@@ -14,12 +14,14 @@ const BestSellers = () => {
             View all
           </div>
         </div>
-        <div className="flex flex-wrap justify-center">
-          <ProductCard2 star />
-          <ProductCard2 star />
-          <ProductCard2 star />
-          <ProductCard2 star />
-          <ProductCard2 star />
+        {/* <div className="flex flex-wrap justify-center"> */}
+        <div className="flex flex justify-center">
+          <ProductCard2 star className="{w-[15%]" />
+          <ProductCard2 star className="{w-[15%]" />
+          <ProductCard2 star className="{w-[15%]" />
+          <ProductCard2 star className="{w-[15%]" />
+          <ProductCard2 star className="{w-[15%]" />
+        
          
         </div>
       </div>

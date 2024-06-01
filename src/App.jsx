@@ -18,13 +18,13 @@ function App() {
     <div className='font-messiri '>
     <Navbar/>
     <Routes>
-      <Route exact path='/' element={<Home/>} />
+      <Route exact path='/' element={<Frame1/>} />
       <Route path='/about' element={<About/>}/>
       <Route path='/collection' element={<Collection/>}/>
       <Route path='/collections' element={<Collections/>}/>
 
       <Route path='/contact' element={<Contact/>}/>
-      <Route path='/frame1' element={<Frame1/>}/>
+      <Route path='/frame1' element={<Home/>}/>
 
 
   
