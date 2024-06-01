@@ -11,7 +11,6 @@ const ShopCatogories = () => {
 
         <ProductCard3 />
         <ProductCard3 />
-        <ProductCard3 />
       </div>
     </div>
   );

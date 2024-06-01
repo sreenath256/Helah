@@ -11,7 +11,7 @@ const RecentlyViewed = () => {
         <ProductCard2 />
         <ProductCard2 />
         <ProductCard2 />
-        <ProductCard2 />
+      
       </div>
     </div>
   );

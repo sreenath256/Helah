@@ -4,10 +4,10 @@ import React from "react";
 const ProductCard4 = () => {
   return (
     <div
-      className="w-[417px] h-[533px] flex flex-col rounded-2xl py-10 ml-8  bg-cover items-center justify-end"
+      className="w-[417px] h-[533px] flex flex-col rounded-2xl w-[22%] py-10 ml-8  bg-cover items-center justify-end"
       style={{
         backgroundImage:
-          "url(https://images.unsplash.com/photo-1610694955371-d4a3e0ce4b52?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
+          "url(https://s3-alpha-sig.figma.com/img/af51/5951/4f7ef2c9539805cc4981173ea0609a93?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RYtpJGUNcpDkGAl1H4v5bcz1fxY1GLdxALII1wMgavkM~Lj46iCnrkewED4Zrx08slNtjGBNw4ZKVD9c44FO-2f81yPq~WcX2R9jfLKAJTGbIl4Me32kY3O317r0GgEMt9Tz3hoNEZxhafiPJI7dk3~pfFLrwwI3VTII-nngO67K3uIsaib7oqZIOcAj~LYPCbu2bY--wOkEMvotR~wEBFeUyEDMsEIIEgFOiEvG9bzfyxqSvBtYz5urExCKWWb3BHJtuXwgV8t9Rt2mY2cz~wU515D6BzcL1i~isDxHX0UHGiN6XNQMLcKTx7IQFBSivGpjxOl8vgcMPBTvBWcDPA__)",
       }}
     >
       <div className="flex justify-center items-center flex-col"> 

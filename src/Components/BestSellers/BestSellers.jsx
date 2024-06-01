@@ -20,7 +20,7 @@ const BestSellers = () => {
           <ProductCard2 star />
           <ProductCard2 star />
           <ProductCard2 star />
-          <ProductCard2 star />
+         
         </div>
       </div>
       <div className="m-12 flex flex-wrap justify-center">
