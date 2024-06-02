@@ -21,7 +21,7 @@ const Collections = () => {
   return (
     <div className="w-full">
       <div
-        className="w-full h-[357px] bg-cover flex justify-center items-center text-[80px] text-white"
+        className="w-full h-[357px] bg-cover flex justify-center items-center text-[40px] lg:text-[80px] md:text-[60px] text-white"
         style={{
           backgroundImage:
             "url(https://s3-alpha-sig.figma.com/img/27ad/f93f/3356b7047c6965fb9fba78a6ec30b548?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T2-ncbf-PM7POAxr6EN34wEcrkAW6NrFFWyj95T9vVVRF5y-7VNom5xSNOaYdny5451KaqoD588Vba6YKdUwCqIf69KFZgjz6fPWRHWtbWbSJQmvkeIhYpJiwKsMHkaOHOYNvOy3TO7g~cVbE77u7633Kh15Wk8Lsd2w6Oi7w~QZXsa6KoCJtOhwFl11MMyXXQwTPLtMwBz5g7ZfQH1XE3E~vDpHRgUQg~Y4ijzjvlrGasCK7skjj7yV~FfZHWCZex0G4OfBgDXd83J1QuhXXPJVIK7hfOIiReaQhokile5mLSr3Pwb3MiY5jud-7S48gMGRIWdpUUPI0INJdPg5Ng__)",
@@ -30,7 +30,7 @@ const Collections = () => {
         PENDENTS
       </div>
       <div className="w-full py-10 px-2 md:px-10 lg:px-20 flex flex-col  justify-center">
-        <div className="w-full flex  justify-between">
+        <div className="w-full flex flex-col items-start space-y-5  lg:mt-0 lg:flex-row lg:justify-between">
           <h1 className="flex justify-center items-center font-Inter ">
             <span>
               <HomeIcon color="#2C2C2C" />
@@ -71,7 +71,7 @@ const Collections = () => {
                 <DropDown title={"Material"} />
               </div>
             </aside>
-            <div className="mb-3 lg:hidden">
+            <div className="mb-3 ml-5 lg:hidden">
               <FilterIcon />
             </div>
             <main className="flex-1 overflow-y-auto">

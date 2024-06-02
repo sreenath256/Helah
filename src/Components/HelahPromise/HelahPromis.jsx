@@ -7,20 +7,22 @@ const HelahPromis = () => {
         The Helah Promise
       </h1>
       <div className="w-full  rounded-[20px] bg-[#F6F6F6]">
-        <div className="w-full my-3 min-h-[150px]  flex justify-around items-center">
-          <div className="flex flex-col w-1/4 border-r-[1px] border-[#BEBEBE] items-center">
+        <div className="w-full my-3 min-h-[150px]  flex justify-around items-center flex-wrap">
+        {/* <div className="grid gap-4 mt-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"> */}
+
+          <div className="flex p-5 flex-col 2/4 lg:w-1/4  lg:border-r-[1px] border-[#BEBEBE] items-center">
             <Icon1 />
             <h1 className="font-Inter text-[20px] mt-2">Fast Delivery</h1>
           </div>
-          <div className="flex flex-col w-1/4 border-r-[1px] border-[#BEBEBE] items-center">
+          <div className="flex p-5 flex-col 2/4 lg:w-1/4  lg:border-r-[1px] border-[#BEBEBE] items-center">
             <Icon2 />
             <h1 className="font-Inter text-[20px] mt-2">15 Days Easy Return</h1>
           </div>
-          <div className="flex flex-col w-1/4 border-r-[1px] border-[#BEBEBE] items-center">
+          <div className="flex p-5 flex-col 2/4 lg:w-1/4  lg:border-r-[1px] border-[#BEBEBE] items-center">
             <Icon3 />
             <h1 className="font-Inter text-[20px] mt-2">Exclusive Rewards</h1>
           </div>
-          <div className="flex flex-col w-1/4  items-center">
+          <div className="flex p-5 flex-col 2/4 lg:w-1/4  items-center">
             <Icon4 />
             <h1 className="font-Inter text-[20px] mt-2">
               High Quality Craftmanship
