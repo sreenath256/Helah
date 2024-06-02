@@ -1,27 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { Input } from "@/components/ui/input";
 
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <nav>
       <div className="bg-white px-2 sm:px-4 py-2.5 h-[120px] w-full border-[0.5px] border-[#C0C0C0] rounded dark:bg-gray-800">
         <div className="container flex flex-nowrap justify-between w-full h-full items-center ">
           <div className="flex w-1/2  h-full items-center justify-start  bg-contain bg-no-repeat bg-center ">
-            <Link to='/'>
-            <img
-              alt="Logo"
-              width={"100%"}
-              height={"100%"}
-              className="object-contain  sm:h-9 lg:w-[250px] w-[150px] "
-              src={
-                "https://raw.githubusercontent.com/sreenath256/Helah/master/src/assets/CompanyLogo.png"
-              }
+            <Link to="/">
+              <img
+                alt="Logo"
+                width={"100%"}
+                height={"100%"}
+                className="object-contain  sm:h-9 lg:w-[250px] w-[150px] "
+                src={
+                  "https://raw.githubusercontent.com/sreenath256/Helah/master/src/assets/CompanyLogo.png"
+                }
               />
-              </Link>
+            </Link>
           </div>
-          <div className=" flex md:order-2 w-1/2 ">
+          <div className=" flex  w-1/2  md:justify-end ">
             <div className="hidden  md:flex w-full md:justify-end  items-center ">
               <div className="flex w-72 bg-[#F5F5F5] rounded-3xl  items-center  pl-5 border-[0.5px] border-[#D0D0D0]">
                 <SearchIcon className="text-gray-700" />
@@ -45,13 +50,56 @@ const Navbar = () => {
             <button
               aria-controls="mobile-menu-2"
               aria-expanded="false"
-              className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className=" p-2 ml-3  text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               data-collapse-toggle="mobile-menu-2"
               type="button"
+              onClick={toggleDropdown}
             >
               <span className="sr-only">Open main menu</span>
               <MenuIcon className="w-6 h-6" />
             </button>
+            {isOpen && (
+        <div className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+          <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              role="menuitem"
+            >
+               <Link to="/abs">New Arrivals</Link>
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              role="menuitem"
+            >
+               <Link to="/frame1">All Jewellery</Link>
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              role="menuitem"
+            >
+                <Link to="/collections">Collections</Link>
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              role="menuitem"
+            >
+                 <Link to="/contact">Best Sellers</Link>
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              role="menuitem"
+            >
+                <Link to="/">Sale</Link>
+            </a>
+            
+          </div>
+        </div>
+      )}
           </div>
         </div>
       </div>
