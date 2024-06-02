@@ -18,7 +18,7 @@ const DropDown = ({title}) => {
   };
   return (
     <div
-      className="flex items-center w-[300px] h-[60px] pl-4 justify-between border-b-[#5F5F5F] border-b-[0.5px] cursor-pointer"
+      className="flex items-center w-full h-[60px] pl-4 justify-between border-b-[#5F5F5F] border-b-[0.5px] cursor-pointer"
       onClick={() => handleClick("div1")}
     >
       <h1 className="font-Inter text-[20px] font-light ml-4">{title}</h1>

@@ -1,26 +1,16 @@
-import { Button } from "@/components/ui/button";
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 
-const ImageSlider = () => {
+const ProductSlider = () => {
   const slides = [
     {
-      url: "https://raw.githubusercontent.com/sreenath256/Helah/master/src/assets/banner.jpg",
+      url: "https://s3-alpha-sig.figma.com/img/d617/af0d/3844e03f4e63422dadd37aa6227426d2?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Jmn2tiuNXYnY-D1KY8uWaovIThkHMlnxsrlRp0WVEJ5apvsGNu8-7TpTiYVPvweJegqA7pWesaplUf3f5UxKMoKWyLKVN3zdAV0eBsewgRk5tuxDdQTVZsjeFsB5N2zjY-v-XNepTEsXjHPQZUccjENtqBKFqr-BNWv2C2GDcef2iv16oDQpRUuY-k3-Jd-Djz1~2JfCASuOnexnwDQ7J1Ycc7jePKgme7thRzS9tcNzMpD5fYpoAp4~pGkZezr-RfOml0f89HZwegnVbdCfFGL-yUCTOhtJ8vw91eMYl2iG2Ih4mpQCmX1kU9SRgNhKhr8tNRDwORp~ppWd8NGxKA__",
     },
     {
-      url: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80",
+      url: "https://s3-alpha-sig.figma.com/img/62da/19c4/b2e856a52e09b9c6e5f3de84a81c2229?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=N-Qk8cNJAAiJjIUbdmZgKghe1Sas4832W6S5JMPAxDvo8vhTJUpCrXKvSZHSL~wG~eBB4ZP453Z27rJUrHIZe-ffpUnvI5pldgTT7cooktc3PaHYj3PITeU0T~haS4DgV0NKaAc7pO2r744JBjwUaTtZ8uzhrUNHPBEVL6zFs21cPZFpHyF6woLRDSf1vHRV0BKVeaiSPWb2EVaqhr5aZXLYQUMwStxs23eA67Vj5m6vzcAJDjZcIUgwDlGQEpaMVMmRiRr4Earu34~3icwRlZ9kcG439z-yVq5rnCG3vnsSkQbEYR-HeBrarJf6dLtTyaFbhgKCIX6tkDyPMM~YUg__",
     },
-    // {
-    //   url: "https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80",
-    // },
-
-    // {
-    //   url: "https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80",
-    // },
-    // {
-    //   url: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80",
-    // },
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -40,20 +30,12 @@ const ImageSlider = () => {
   const goToSlide = (slideIndex) => {
     setCurrentIndex(slideIndex);
   };
-
   return (
-    <div className=" h-full w-full m-auto  relative group">
+    <div className="w-full h-full   m-auto   relative group">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className="w-full  h-full md:rounded-[20px] flex flex-col justify-center items-center bg-center bg-cover transition-opacity opacity-100  duration-500"
-      >
-        
-        <h1 className="text-7xl  text-white">Align with</h1>
-        <h1 className="text-7xl  text-white">true self</h1>
-        <Button className="bg-[#CC4254] mt-3 w-[176px] h-[62px] rounded-[5px] font-Inter text-[20px] text-white  ">
-          Explore now
-        </Button>
-      </div>
+        className="w-full h-full  bg-center bg-cover duration-500 lg:rounded-xl"
+      ></div>
       {/* Left Arrow */}
       <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
         <BsChevronCompactLeft onClick={prevSlide} size={30} />
@@ -69,7 +51,7 @@ const ImageSlider = () => {
             onClick={() => goToSlide(slideIndex)}
             className="text-2xl cursor-pointer"
           >
-            {/* <RxDotFilled /> */}
+            <RxDotFilled className="text-[#CC4254]"/>
           </div>
         ))}
       </div>
@@ -77,4 +59,4 @@ const ImageSlider = () => {
   );
 };
 
-export default ImageSlider;
+export default ProductSlider;

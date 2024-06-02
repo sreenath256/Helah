@@ -9,6 +9,7 @@ import Footer from './Components/Footer/Footer'
 import Demo from './Screens/Demo'
 import Frame1 from './Screens/Frame1'
 import Collections from './Screens/Collections/Collections'
+import SingleProduct from './Screens/SingleProduct/SingleProduct'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/frame1' element={<Home/>}/>
+      <Route path='/product' element={<SingleProduct/>}/>
 
 
   

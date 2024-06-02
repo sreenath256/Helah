@@ -2,7 +2,7 @@ import React from "react";
 import { IoMdStar } from "react-icons/io";
 const ProductCard2 = ({ star,className }) => {
   return (
-    <div className={`m-4 max-w-[264px] min-h-[403px] flex flex-col ${className} `}>
+    <div className={`my-2 max-w-[264px] min-h-[403px] flex flex-col ${className} `}>
       
       <div className="w-full ">
       {/* // src="https://images.unsplash.com/photo-1588909006332-2e30f95291bc?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGlhbW9uZCUyMGNoYWlufGVufDB8fDB8fHww" */}
